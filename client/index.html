@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My theme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <h2 class="header">My todo list</h2>
+ <form class="form-inline text-center">
+  <div class="form-group" >
+        <input  type="text" required id="todojs" class="form-control" style="width: 400px;" placeholder="Enter your task...">
+      <button class="button" id="addbtn">ADD</button>
+          </div>
+    </form>
+    <ol id="exp" style="text-align: left;">
+    </ol>
+    <div class="end text-center">
+        <button onclick="clearAll()">CLEAR HISTORY</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
